@@ -131,7 +131,7 @@ const ContactSection = () => {
             <CardHeader>
               <CardTitle className="text-2xl">Send a Message</CardTitle>
               <p className="text-muted-foreground">
-                Have a project in mind? Let's discuss how I can help.
+                Let's discuss how I can help.
               </p>
             </CardHeader>
             <CardContent>
@@ -139,17 +139,17 @@ const ContactSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <Label htmlFor="firstName">First Name</Label>
-                    <Input id="firstName" placeholder="John" />
+                    <Input id="firstName" />
                   </div>
                   <div>
                     <Label htmlFor="lastName">Last Name</Label>
-                    <Input id="lastName" placeholder="Doe" />
+                    <Input id="lastName" />
                   </div>
                 </div>
                 
                 <div>
                   <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input id="email" type="email" />
                 </div>
                 
                 <div>
@@ -158,15 +158,9 @@ const ContactSection = () => {
                 </div>
                 
                 <div>
-                  <Label htmlFor="subject">Subject</Label>
-                  <Input id="subject" placeholder="Project collaboration opportunity" />
-                </div>
-                
-                <div>
                   <Label htmlFor="message">Message</Label>
                   <Textarea 
-                    id="message" 
-                    placeholder="Tell me about your project or opportunity..."
+                    id="message"
                     rows={5}
                   />
                 </div>
