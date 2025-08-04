@@ -154,7 +154,7 @@ const ContactSection = () => {
                 
                 <div>
                   <Label htmlFor="company">Company (Optional)</Label>
-                  <Input id="company" placeholder="Your company name" />
+                  <Input id="company" />
                 </div>
                 
                 <div>
