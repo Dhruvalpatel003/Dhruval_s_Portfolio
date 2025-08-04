@@ -71,7 +71,7 @@ const ProjectSection = () => {
               <div className="p-8">
                 <CardHeader className="p-0 mb-6">
                   <CardTitle className="text-2xl font-bold text-foreground mb-2">
-                    Automated Inspection System for Turbomachinery Components
+                    Modern Robotics – Robotic Arm Programming & Control
                   </CardTitle>
                   <p className="text-muted-foreground">
                     Revolutionary automation solution that transformed quality control processes

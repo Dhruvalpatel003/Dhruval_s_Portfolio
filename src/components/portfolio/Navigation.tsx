@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import resumePdf from '/assets/DhruvalResume.pdf'
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,7 +59,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button variant="tech" size="sm" onClick={() => {
-              window.open(resumePdf, '_blank')
+              window.open(`${import.meta.env.BASE_URL}assets/Dhruval's Resume.pdf`, '_blank')
             }}>
               Download CV
             </Button>
@@ -96,7 +95,7 @@ const Navigation = () => {
                 </button>
               ))}
               <Button variant="tech" size="sm" className="w-full mt-4" onClick={() => {
-                window.open(resumePdf, '_blank')
+                window.open(`${import.meta.env.BASE_URL}assets/Dhruval's Resume.pdf`, '_blank')
               }}>
                 Download CV
               </Button>
