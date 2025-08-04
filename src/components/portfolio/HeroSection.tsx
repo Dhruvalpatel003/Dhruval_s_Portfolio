@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
+import profilePic from "@/assets/profile-picture.png"
 
 const HeroSection = () => {
   return (
@@ -19,7 +20,7 @@ const HeroSection = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <img 
-                src={`${import.meta.env.BASE_URL}assets/6aee6e83-b018-4c87-84f7-91e05746644b.png`}
+                src={profilePic}
                 alt="Dhruval Patel"
                 className="w-32 h-32 rounded-full border-4 border-white shadow-hero object-cover"
               />

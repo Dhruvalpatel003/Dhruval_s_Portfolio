@@ -75,7 +75,9 @@ const ProjectSection = () => {
               </div>
             </div>
           </Card>
+        </div>
 
+        <div className="max-w-6xl mx-auto">
           <Card className="bg-card shadow-hero border-0 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-0">
               {/* Project Image */}
