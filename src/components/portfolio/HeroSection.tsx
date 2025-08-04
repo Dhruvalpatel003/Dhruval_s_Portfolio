@@ -40,8 +40,8 @@ const HeroSection = () => {
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
             Mechanical engineer with <span className="font-semibold text-tech-blue">5+ years of experience</span> in design, 
-            manufacturing, and automation. Specializing in <span className="font-semibold text-tech-accent">turbomachinery</span>, 
-            3D modeling, and lean manufacturing. Passionate about solving engineering problems and improving industrial efficiency.
+            manufacturing, and automation. Specializing in turbomachinery, 3D modeling, and lean manufacturing. 
+            Passionate about solving engineering problems and improving industrial efficiency.
           </p>
 
           {/* Skills Tags */}

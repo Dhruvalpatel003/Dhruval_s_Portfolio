@@ -58,7 +58,9 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button variant="tech" size="sm">
+            <Button variant="tech" size="sm" onClick={() => {
+              window.open(`${import.meta.env.BASE_URL}assets/Dhruval's Resume.pdf`, '_blank')
+            }}>
               Download CV
             </Button>
           </div>
