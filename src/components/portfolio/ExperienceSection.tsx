@@ -3,6 +3,19 @@ import { Badge } from "@/components/ui/badge";
 import { Building2, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
+    {
+    title: "Teaching Assistant",
+    company: "Saint Louis University",
+    period: "2025",
+    location: "St. Louis, MO",
+    icon: "🎓",
+    responsibilities: [
+      "Supported LabVIEW instruction and curriculum development",
+      "Provided personalized student learning support",
+      "Evaluated engineering experimental tasks and projects"
+    ],
+    skills: ["LabVIEW", "Teaching", "Student Mentoring", "Engineering Education"]
+  },
   {
     title: "Assembly Engineer",
     company: "Turbo Energy Limited",
@@ -30,19 +43,6 @@ const experiences = [
       "Collaborated with QC and maintenance teams for quality assurance"
     ],
     skills: ["3D Modeling", "CNC Machining", "SolidWorks", "Process Improvement"]
-  },
-  {
-    title: "Teaching Assistant",
-    company: "Saint Louis University",
-    period: "2025",
-    location: "St. Louis, MO",
-    icon: "🎓",
-    responsibilities: [
-      "Supported LabVIEW instruction and curriculum development",
-      "Provided personalized student learning support",
-      "Evaluated engineering experimental tasks and projects"
-    ],
-    skills: ["LabVIEW", "Teaching", "Student Mentoring", "Engineering Education"]
   }
 ];
 
