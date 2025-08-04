@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import resumePdf from '../assets/DhruvalResume.pdf'
+import resumePdf from '/assets/DhruvalResume.pdf'
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
