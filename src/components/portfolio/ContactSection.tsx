@@ -56,7 +56,7 @@ const ContactSection = () => {
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to discuss your next engineering project or opportunity? I'd love to hear from you.
+            I'd love to hear from you.
           </p>
         </div>
 
@@ -178,29 +178,6 @@ const ContactSection = () => {
               </form>
             </CardContent>
           </Card>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <div className="max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Ready to Start Your Next Project?
-            </h3>
-            <p className="text-muted-foreground mb-6">
-              Whether you need mechanical design expertise, automation solutions, or lean manufacturing consulting, 
-              I'm here to help bring your ideas to life.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="tech" size="lg">
-                <Phone className="w-4 h-4 mr-2" />
-                Schedule a Call
-              </Button>
-              <Button variant="outline" size="lg">
-                <Linkedin className="w-4 h-4 mr-2" />
-                Connect on LinkedIn
-              </Button>
-            </div>
-          </div>
         </div>
       </div>
     </section>
